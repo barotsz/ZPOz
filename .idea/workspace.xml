@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50c0b383-9648-4164-b8f2-441f161e1568" name="Default" comment="" />
+    <list default="true" id="50c0b383-9648-4164-b8f2-441f161e1568" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,11 +23,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Task_2.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Task_2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Lab_1/Task_2/Task_2.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="241">
               <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Task_3.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Lab_1/Task_3/Task_3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WrongIntegerInputedException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lab_1/Task_3/WrongIntegerInputedException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+              <folding>
+                <element signature="e#118#119#0" expanded="true" />
+                <element signature="e#144#145#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -48,6 +75,8 @@
         <option value="$PROJECT_DIR$/src/Lab_1/Task_4/Task_4.java" />
         <option value="$PROJECT_DIR$/src/Lab_1/Task_1/Task_1.java" />
         <option value="$PROJECT_DIR$/src/Lab_1/Task_2/Task_2.java" />
+        <option value="$PROJECT_DIR$/src/Lab_1/Task_3/Task_3.java" />
+        <option value="$PROJECT_DIR$/src/Lab_1/Task_3/WrongIntegerInputedException.java" />
       </list>
     </option>
   </component>
@@ -105,6 +134,13 @@
               <item name="Lab_1" type="462c0819:PsiDirectoryNode" />
               <item name="Task_2" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="StudiaZPOz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StudiaZPOz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Lab_1" type="462c0819:PsiDirectoryNode" />
+              <item name="Task_3" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -131,7 +167,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Task_2">
+  <component name="RunManager" selected="Application.Task_3">
     <configuration name="Task_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lab_1.Task_1.Task_1" />
       <module name="StudiaZPOz" />
@@ -150,6 +186,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lab_1.Task_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Task_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab_1.Task_3.Task_3" />
+      <module name="StudiaZPOz" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lab_1.Task_3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -210,9 +257,11 @@
       <item itemvalue="Application.Task_4" />
       <item itemvalue="Application.Task_1" />
       <item itemvalue="Application.Task_2" />
+      <item itemvalue="Application.Task_3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task_3" />
         <item itemvalue="Application.Task_2" />
         <item itemvalue="Application.Task_1" />
         <item itemvalue="Application.Task_4" />
@@ -230,12 +279,12 @@
       <option name="presentableId" value="Default" />
       <updated>1523820098423</updated>
       <workItem from="1523820104686" duration="1698000" />
-      <workItem from="1523824661002" duration="2320000" />
+      <workItem from="1523824661002" duration="3328000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4018000" />
+    <option name="totallyTimeSpent" value="5026000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
@@ -307,6 +356,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
           <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab_1/Task_3/WrongIntegerInputedException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding>
+            <element signature="e#118#119#0" expanded="true" />
+            <element signature="e#144#145#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab_1/Task_3/Task_3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
